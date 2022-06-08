@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
+    <test name="Test">
+         <classes>
+             <class name="testSuites.ts_01HeroAdd"/>
+             <class name="testSuites.ts_02HeroSearch"/>
+             <class name="testSuites.ts_02HeroDelete"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
